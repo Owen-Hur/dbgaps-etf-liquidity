@@ -1,0 +1,30 @@
+# 캐시 (날짜별 가격/수급 parquet — 재생성 가능)
+.cache/
+
+# 로그
+*.log
+
+# 파이썬
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# 환경변수/비밀키 (KRX_AUTH_KEY 등은 절대 커밋 금지)
+.env
+.env.*
+*.secret
+
+# 에디터
+.idea/
+.vscode/
+
+# 개인별 포트폴리오 거래 기록 (공유 안 함)
+portfolio.json
+
+# aum_snapshots.csv 는 의도적으로 추적합니다 (누적 데이터)
